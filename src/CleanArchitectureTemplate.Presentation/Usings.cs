@@ -1,0 +1,1 @@
+global using CleanArchitectureTemplate.Application.Abstractions.Messaging;

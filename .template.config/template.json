@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "kievzenit",
+    "classifications": [
+        "Web",
+        "API",
+        "ASP.NET",
+        "Clean Architecture"
+    ],
+    "identity": "Clean.Architecture.API.Template.CSharp",
+    "name": "Clean Architecture Api Template",
+    "shortName": "cleanarchitecture-4tier",
+    "sourceName": "CleanArchitectureTemplate",
+    "description": "A Clean Architecture Solution Template for creating a Web API with ASP.NET Core.",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "preferNameDirectory": true,
+    "sources": [
+        {
+            "source": "./",
+            "target": "./",
+            "exclude": [
+                ".template.config/**/*",
+                ".vscode/*"
+            ]
+        }
+    ]
+}
